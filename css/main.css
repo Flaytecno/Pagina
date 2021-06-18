@@ -90,7 +90,7 @@ a{
 }
 
 .div21 #input{
-    width: 640px;
+    width: 900px;
     height: 30px;
     text-align: center;
     margin: 0px 5px;
@@ -99,6 +99,25 @@ a{
     border: none;
     border-radius: 10px;
     font-size: 15px;
+}
+
+.form{
+	margin: 5px;
+}
+
+.select{
+	cursor: pointer;
+    padding: 0 210px;
+	width: 636px;
+	height: 30px;
+	border: none;
+    background: transparent;
+	font-size: 20px;
+	align-content: center;	
+}
+
+.form1 {
+	font-size: 20px;
 }
 
 .div21 #label1{
