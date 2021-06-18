@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
     integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-  <link rel="stylesheet" href="/Pagina/css/main.css">
-  <link rel="stylesheet" href="/Pagina/css/usuarios.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/usuarios.css">
   <title>Pagina | Usuarios</title>
 </head>
 
@@ -20,7 +20,7 @@
       <ul>
         <li><i class="fas fa-th-large"></i>Dashboard</li>
         <li><i class="fas fa-donate"></i>Finanzas</li>
-        <li><a href="https://flaytecno.github.io/Pagina/#People"><i class="fas fa-user-friends"></i>People</a></li>
+        <li><a href="https://flaytecno.github.io/Pagina/#People"><i class="fas fa-user-friends"></i>Usuarios</a></li>
         <li><i class="fas fa-signal"></i>Estadisticas</li>
         <li><i class="fas fa-inbox"></i>Documentos</li>
       </ul>
@@ -36,9 +36,9 @@
     <div class="div2">
 
       <div>
-        <label id="People"><i class="fas fa-user-friends"></i>People</label>
+        <label id="People"><i class="fas fa-user-friends"></i>Usuarios</label>
         <label><i class="fas fa-angle-right"></i></label>
-        <label>Desing Team</label>
+        <label>Equipo de diseño</label>
         <label><i class="fas fa-angle-right"></i></label>
         <label>Administrador</label>
       </div>
@@ -49,6 +49,21 @@
         <p>Administrador</p>
         <p>Administrador Flaytec</p>
         <p id="cv">CV <i class="far fa-id-badge" id="icono"></i></p>
+      </div>
+      <div class="div21">
+      <form class="form" id="input">
+        <select class="select" name="area" onChange="location = form.area.options[form.area.selectedIndex].value;">
+          <option value="Seleccione una opcion" class="form1">PROYECTO</option>			
+          <optgroup label="Administrador" class="optgroup">
+            <option value="https://flaytec.github.io/calcu/"> Calculadora</option>
+            <option value="https://flaytec.github.io/Toggle/"> Toggle</option>	
+            <option value="https://flaytec.github.io/login/"> Login</option>
+            <option value="https://flaytec.github.io/resp/"> Web responsive</option>
+            <option value="https://flaytec.github.io/Botones/"> Botones</option>
+            <option value="https://flaytec.github.io/juego/"> Juego</option>
+            <option value="https://flaytec.github.io/Print-Galery/"> Print Galery</option>
+            <option value="https://flaytec.github.io/probar/"> Barra de progreso</option>
+        </select>
       </div>
       <div class="container">
         <div class="card">
@@ -214,7 +229,7 @@
           <div class="conten-proyect">
             <div class="proyect">
               <img src="/Pagina/img/boton.png" alt="">
-              <h3>Web responsive</h3>
+              <h3>Botones</h3>
               <a href="https://flaytec.github.io/Botones/">
                 <p><i class="far fa-window-restore"></i>WEB</p>
               </a>
@@ -288,7 +303,7 @@
           <div class="conten-proyect">
             <div class="proyect">
               <img src="/Pagina/img/barra.png" alt="">
-              <h3>Web responsive</h3>
+              <h3>Barra de progreso</h3>
               <a href="https://flaytec.github.io/probar/">
                 <p><i class="far fa-window-restore"></i>WEB</p>
               </a>
