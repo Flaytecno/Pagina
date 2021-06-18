@@ -19,7 +19,8 @@
             <ul>
                 <li><i class="fas fa-th-large"></i>Dashboard</li>
                 <li><i class="fas fa-donate"></i>Finanzas</li>
-                <li><a href="https://flaytecno.github.io/Pagina/#People"><i class="fas fa-user-friends"></i>People</a></li>
+                <li><a href="https://flaytecno.github.io/Pagina/#People"><i class="fas fa-user-friends"></i>Usuarios</a>
+                </li>
                 <li><i class="fas fa-signal"></i>Estadisticas</li>
                 <li><i class="fas fa-inbox"></i>Documentos</li>
             </ul>
@@ -33,14 +34,26 @@
 
         </div>
         <div class="div2">
-            <label id="People"><i class="fas fa-user-friends"></i>People</label>
+            <label id="People"><i class="fas fa-user-friends"></i>Usuarios</label>
             <label><i class="fas fa-angle-right"></i></label>
             <label>Desing Team</label>
-            <h2>3 People</h2>
+            <h2>3 Usuarios</h2>
             <div class="div21">
-                <input id="input" type="search" placeholder="Search" name="search">
-                <p id="label1">Position</p>
-                <p id="label1">More</p>
+
+                <form class="form" id="input">
+                    <select class="select" name="area"
+                        onChange="location = form.area.options[form.area.selectedIndex].value;">
+                        <option value="Seleccione una opcion" class="form1">BUSCAR USUARIO</option>
+                        <optgroup label="USUARIOS" class="optgroup">
+                            <option value="https://flaytecno.github.io/Pagina/usuarios/Abministador.html"> ADMINISTRADOR
+                            </option>
+                            <option value="https://flaytecno.github.io/Pagina/usuarios/Alan.html"> ALAN MARTINEZ
+                            </option>
+                            <option value="https://flaytecno.github.io/Pagina/usuarios/Sabrina.html"> SABRINA ORTIZ
+                            </option>
+                    </select>
+                </form>
+
             </div>
 
             <div class="contpeopleid">
@@ -149,4 +162,5 @@
         </div>
     </div>
 </body>
+
 </html>
