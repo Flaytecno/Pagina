@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/js.js"></script>
+    <title>Pagina</title>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="div1">
+            <h2>Flaytec</h2>
+            <p>Tools</p>
+            <ul>
+                <li><i class="fas fa-th-large"></i>Dashboard</li>
+                <li><i class="fas fa-donate"></i>Finanzas</li>
+                <li><a href="https://flaytecno.github.io/Pagina/#People"><i class="fas fa-user-friends"></i>Usuarios</a>
+                </li>
+                <li><i class="fas fa-signal"></i>Estadisticas</li>
+                <li><i class="fas fa-inbox"></i>Documentos</li>
+            </ul>
+
+            <p>Otros</p>
+            <ul>
+                <li><i class="fas fa-comments"></i>Chat</li>
+                <li><a href="/sorte/Soporte.html"><i class="fas fa-phone-volume"></i>Soporte</a></li>
+                </li>
+                <li><i class="fas fa-cogs"></i>Configuracion</li>
+            </ul>
+
+        </div>
+        <div class="div2">
+            <label id="People"><i class="fas fa-phone-volume"></i>Soporte</label>
+            <label><i class="fas fa-angle-right"></i></label>
+            <h2>¿En qué podemos ayudarte?</h2>
+            <div class="div21">
+
+                <form class="form" id="input">
+                    <select class="select" name="area"
+                        onChange="location = form.area.options[form.area.selectedIndex].value;">
+                        <option value="Seleccione una opcion" class="form1">PREGUNTANOS</option>
+                        <optgroup label="Preguntas" class="optgroup">                     
+                            <option value="#preg1"> PREGUNTA 1</option>
+                            <option value="#preg2"> PREGUNTA 2</option>
+                            <option value="#preg3"> PREGUNTA 3</option>
+                            <option value="#preg4"> PREGUNTA 4</option>
+                            <option value="#preg5"> PREGUNTA 5</option>
+                            <option value="#preg5"> PREGUNTA 6</option>
+                    </select>
+                </form>
+
+            </div>
+
+            <div class="accordion">
+                <input type="radio" name="select" class="accordion-select" checked />
+               <div class="accordion-title"><span>Title</span></div>
+               <div class="accordion-content">Content</div> 
+                    <input type="radio" name="select" class="accordion-select" />
+               <div class="accordion-title"><span>Title</span></div>
+               <div class="accordion-content">Content</div> 
+                    <input type="radio" name="select" class="accordion-select" />
+               <div class="accordion-title"><span>Title</span></div>
+               <div class="accordion-content">Content</div> 
+                    <input type="radio" name="select" class="accordion-select" />
+               <div class="accordion-title"><span>Title</span></div>
+               <div class="accordion-content">Content</div> 
+                    <input type="radio" name="select" class="accordion-select" />
+               <div class="accordion-title"><span>Title</span></div>
+               <div class="accordion-content">Content</div> 
+                    <input type="radio" name="select" class="accordion-select" />
+               <div class="accordion-title"><span>Title</span></div>
+               <div class="accordion-content">Content</div> 
+           </div> 
+
+            </div>
+        </div>
+        
+    </div>
+</body>
+
+</html>
