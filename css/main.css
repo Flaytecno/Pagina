@@ -412,3 +412,58 @@ a{
 		padding: 10px 0;
 	}
 }
+
+.contenedor-prim {
+    background: #1f83c5;
+    display: inline-block;
+    height: auto;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.contenedor-sec {
+    text-align: center;
+    width: 500px;
+    border-radius: 5px;
+    font-family: consolas;
+    margin: 16px;
+}
+
+.contenedor-sec img {
+    cursor: default;
+    width: 200px;
+    border-radius: 5px;
+    background-image: none;
+    background: #1f83c5;
+}
+
+.contenedor-sec p{
+    cursor: default;
+    font-size: 30px;
+    color: #1f83c5;
+    font-family: consolas;
+}
+
+.contenedor-sec label {
+    cursor: pointer;
+    text-align: justify;
+    font-family: consolas;
+}
+
+.contenedor-sec button{
+    text-align: center;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #afafaf;
+    font-family: consolas;
+    height: 30px;
+}
+
+.contenedor-sec button:hover{
+    text-align: center;
+    background: #1f83c5;
+    color: #ffffff;
+    height: 30px;
+    border-radius: 5px;
+}
