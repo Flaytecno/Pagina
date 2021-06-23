@@ -1,0 +1,82 @@
+.princ{
+    padding: 20px 0;
+    text-align: center;
+    cursor: default;
+}
+
+.princ img{
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid #003bfd;
+    cursor: default;
+}
+
+.princ .name{
+    font-size: 60px;
+    color: #ffff;
+    cursor: default;
+}
+
+.princ p{
+    font-size: 30px;
+    text-align: center;
+    color: #ffff;
+    cursor: default;
+}
+
+.redes{
+    text-align: center;
+}
+
+.redes i{
+    margin: 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.skills {
+    cursor: default;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 70px 0;
+  }
+  
+  .skills-title {
+    cursor: default;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffff;
+  }
+  
+  .skills-skill {
+    cursor: default;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffff;
+    box-shadow: 0 4px 10px #00000040;
+    border-radius: 42px;
+    padding: 0.5em 0.7em;
+    margin: 10px;
+  }
+  
+  .skills-list {
+    cursor: default;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  @media(min-width: 950px) {
+    .skills-title {
+      font-size: 50px;
+    }
+    
+    .skills-skill {
+      font-size: 30px;
+      margin: 20px;
+    }
+  }
